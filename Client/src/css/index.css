@@ -1,0 +1,29 @@
+.header {
+  padding: 10px;
+  background: #edf2f4;
+  border-bottom: 1px solid #999;
+}
+
+.header a {
+  color: rgba(21, 64, 114, 0.973);
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.header a:hover {
+  color: red;
+}
+
+.header .active {
+  color: #006680;
+}
+
+.content {
+  padding: 20px;
+}
+
+.error {
+  color: rgba(104, 14, 14, 0.788);
+  margin-bottom: 10px;
+}

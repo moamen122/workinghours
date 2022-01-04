@@ -1,0 +1,31 @@
+$colorHeader : #edf2f4 ;
+$colorLink : rgba(21, 64, 114, 0.973);
+$colorHover: red;
+$colorActive: rgb(0, 102, 128);
+$errorColor: rgba(104, 14, 14, 0.788);
+
+.header {
+    padding: 10px;
+    background: $colorHeader;
+    border-bottom: 1px solid #999 ;
+}
+.header a {
+    color: $colorLink;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.header a:hover {
+    color: $colorHover;
+
+}
+.header .active {
+    color: $colorActive;
+}
+.content {
+    padding: 20px;
+}
+.error {
+    color: $errorColor;
+    margin-bottom: 10px;
+}
